@@ -1,0 +1,1284 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: DMSans-Regular;
+  src: url(../fonts/DM_Sans/DMSans-Regular.ttf);
+}
+@font-face {
+  font-family: Poppins-Regular;
+  src: url(../fonts/Poppins/Poppins-Regular.ttf);
+}
+#logotipo {
+  position: absolute;
+  left: 15%;
+  top: 6%;
+}
+a:hover {
+  color: aqua;
+  cursor: pointer;
+}
+nav {
+  text-align: center;
+  margin-top: 2.8%;
+  margin-left: 45%;
+}
+li {
+  font-family: DMSans-Regular;
+  display: inline;
+  padding: 3%;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 21px;
+}
+hr {
+  margin-top: 2%;
+  width: 100%;
+  height: 1px;
+  background: #e4e4e4;
+}
+h3 {
+  font-family: Poppins-Regular;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 54px;
+  color: rgba(15, 36, 29, 1);
+  margin-left: 14.5%;
+  margin-top: 10%;
+  width: 396px;
+  height: 108px;
+  top: 178px;
+  left: 123px;
+}
+p {
+  font-family: DMSans-Regular;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23.44px;
+  color: rgba(118, 118, 118, 1);
+  margin-left: 14.5%;
+  margin-top: 1%;
+}
+button {
+  height: 50px;
+  width: 218px;
+  left: 123px;
+  top: 368px;
+  border-radius: 4px;
+  padding: 14px 32px 15px 32px;
+  background-color: rgba(105, 185, 157, 1);
+  margin-left: 14.5%;
+  margin-top: 1%;
+}
+button:hover {
+  background-color: white;
+  cursor: pointer;
+}
+#progressiva {
+  position: absolute;
+  width: 658px;
+  height: 443px;
+  left: 55%;
+  top: 25%;
+}
+#parte2 {
+  margin-top: 12%;
+  width: 100%;
+  height: 1px;
+  background: #e4e4e4;
+}
+#mulheres {
+  margin-top: 6%;
+  margin-left: 14.5%;
+}
+h2 {
+  font-family: Poppins-Regular;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 54px;
+  text-align: center;
+  color: #0f241d;
+  width: 182px;
+  height: 54px;
+  margin-left: 50%;
+  margin-top: -22%;
+}
+.sobre {
+  font-family: DMSans-Regular;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #767676;
+  width: 40%;
+  margin-left: 50%;
+}
+#parte3 {
+  margin-top: 8%;
+  width: 100%;
+  height: 1px;
+  background: #ffffff;
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+  color: rgba(255, 255, 255, 1);
+}
+h1 {
+  font-family: DMSans-Regular;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 54px;
+  text-align: center;
+  color: #0f241d;
+  margin-top: 141px;
+}
+.tratamentos {
+  font-family: DMSans-Regular;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  text-align: center;
+  color: #0f241d;
+  margin-left: 0%;
+}
+.iconecabelo {
+  margin-left: 40%;
+  margin-top: 10%;
+}
+h6 {
+  font-family: Poppins-Regular;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  text-align: center;
+  margin-top: 5%;
+}
+.terapiacompleta {
+  font-family: DMSans-Regular;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 21px;
+  text-align: center;
+  color: #767676;
+  margin-left: 0;
+  margin-top: 5%;
+}
+.Capilar {
+  width: 352px;
+  height: 352px;
+  margin-left: 16%;
+  margin-top: 5%;
+  left: 20px;
+  top: 359px;
+  background: #f9f9f9;
+  box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.08);
+}
+.cortes {
+  width: 352px;
+  height: 352px;
+  margin-left: 41%;
+  margin-top: -18.5%;
+  left: 20px;
+  top: 359px;
+  background: #f9f9f9;
+  box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.08);
+}
+.tratamentoscapilar {
+  background-color: black;
+  width: 352px;
+  height: 352px;
+  margin-left: 67%;
+  margin-top: -18.5%;
+  left: 20px;
+  top: 359px;
+  background: #f9f9f9;
+  box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.08);
+}
+.primeiroverde {
+  width: 355px;
+  height: 4px;
+  left: 123px;
+  top: 707px;
+  background-color: #69b99d;
+  margin-left: 16%;
+  margin-top: 0%;
+}
+.segundoverde {
+  width: 355px;
+  height: 4px;
+  left: 123px;
+  top: 707px;
+  background-color: #69b99d;
+  margin-left: 41%;
+  margin-top: -0.2%;
+}
+.terceiroverde {
+  width: 355px;
+  height: 4px;
+  left: 123px;
+  top: 707px;
+  background-color: #69b99d;
+  margin-left: 67%;
+  margin-top: -0.2%;
+}
+h4 {
+  font-family: Poppins-Regular;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 54px;
+  text-align: center;
+  color: #0f241d;
+  margin-top: 160px;
+}
+#depoimentos1 {
+  margin-left: 16%;
+  margin-top: 5%;
+  width: 544px;
+  height: 264px;
+  height: 264px;
+  left: 123px;
+  top: 332px;
+  background: #ffffff;
+  box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.08);
+  border-radius: 4px;
+}
+.cliente {
+  font-family: DMSans-Regular;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #0f241d;
+  margin-top: -4%;
+}
+.wanessa {
+  font-family: DMSans-Regular;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #0f241d;
+  margin-left: 23%;
+  margin-top: -6%;
+}
+.minifoto {
+  margin-left: 16%;
+  margin-top: 3%;
+}
+.aspas {
+  position: relative;
+  margin-left: 10%;
+  padding-top: 5%;
+}
+#depoimentos2 {
+  margin-left: 55%;
+  margin-top: -14%;
+  width: 544px;
+  height: 264px;
+  height: 264px;
+  left: 123px;
+  top: 332px;
+  background: #ffffff;
+  box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.08);
+  border-radius: 4px;
+}
+.bolas {
+  margin-top: 8%;
+  margin-left: 48%;
+}
+h5 {
+  font-family: Poppins-Regular;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 54px;
+  color: #0f241d;
+  margin-left: 16%;
+  margin-top: 6%;
+}
+.ouvir {
+  font-family: DMSans-Regular;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  margin-left: 16%;
+  margin-top: 2%;
+}
+.final {
+  margin-left: 16%;
+  margin-top: 3%;
+}
+#prefinal {
+  background-color: #f9f9f9;
+  padding: 1%;
+}
+.phone {
+  position: absolute;
+  margin-left: 58.2%;
+  margin-top: -13%;
+}
+.map {
+  position: absolute;
+  margin-left: 58.2%;
+  margin-top: -9%;
+}
+.mail {
+  position: absolute;
+  margin-left: 58.2%;
+  margin-top: -5%;
+}
+.number {
+  line-height: 23px;
+  position: absolute;
+  margin-left: 60.5%;
+  margin-top: -13%;
+}
+.r {
+  position: absolute;
+  margin-left: 60.5%;
+  margin-top: -9%;
+}
+.email {
+  position: absolute;
+  margin-left: 60.5%;
+  margin-top: -5%;
+}
+footer {
+  background: #69b99d;
+  width: 100%;
+}
+.logofooter {
+  margin-left: 16%;
+  margin-top: 61px;
+  height: 38px;
+  width: 249.28px;
+}
+.text {
+  font-family: DMSans-Regular;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  color: #f9f9f9;
+  margin-left: 16%;
+}
+.instagram {
+  position: absolute;
+  margin-left: 74%;
+  margin-top: -5%;
+  width: 24px;
+  height: 24px;
+}
+.facebook {
+  position: absolute;
+  margin-left: 77%;
+  margin-top: -5%;
+  width: 24px;
+  height: 24px;
+}
+.youtube {
+  position: absolute;
+  margin-left: 80%;
+  margin-top: -5%;
+  width: 24px;
+  height: 24px;
+}
+@media screen and (max-width: 1536px) and (min-width: 864px) {
+  #logotipo {
+    margin-left: -7%;
+  }
+  h3 {
+    margin-left: 8%;
+  }
+  p {
+    margin-left: 8%;
+    margin-top: 2%;
+  }
+  button {
+    margin-top: 3%;
+    margin-left: 8%;
+  }
+  #progressiva {
+    margin-left: -2%;
+    margin-top: -2%;
+  }
+  #mulheres {
+    margin-left: 8%;
+  }
+  h2 {
+    margin-top: -29%;
+    margin-left: 55%;
+  }
+  .sobre {
+    margin-left: 55%;
+  }
+  h1 {
+    margin-left: 6%;
+  }
+  .tratamentos {
+    margin-left: 5%;
+  }
+  #depoimentos {
+    margin-left: 5%;
+  }
+  .aspas {
+    margin-left: 2%;
+  }
+  #depoimentos2 {
+    margin-top: -17.5%;
+  }
+  .bolas {
+    margin-left: 52%;
+  }
+  .cortes {
+    margin-top: -23%;
+    margin-left: 41.5%;
+  }
+  .tratamentoscapilar {
+    margin-top: -23%;
+  }
+  .primeiroverde {
+    margin-top: 0%;
+  }
+  .segundoverde {
+    margin-top: -0.3%;
+    margin-left: 41.5%;
+  }
+  .terceiroverde {
+    margin-top: -0.3%;
+  }
+}
+@media screen and (max-width: 1440px) and (min-width: 900px) {
+  #logotipo {
+    margin-left: -10%;
+  }
+  h3 {
+    margin-left: 5%;
+  }
+  p {
+    margin-left: 5%;
+    margin-top: 2%;
+  }
+  button {
+    margin-left: 5%;
+    margin-top: 3%;
+  }
+  #progressiva {
+    margin-left: -5%;
+  }
+  #mulheres {
+    margin-left: 5%;
+  }
+  h2 {
+    margin-left: 51%;
+  }
+  .sobre {
+    margin-left: 51%;
+    margin-top: 0%;
+    width: 45%;
+  }
+  h1 {
+    margin-left: -5%;
+  }
+  .tratamentos {
+    margin-left: -5%;
+  }
+  .Capilar {
+    margin-left: 8%;
+  }
+  .primeiroverde {
+    margin-left: 8%;
+    margin-top: 0%;
+  }
+  .cortes {
+    margin-left: 37%;
+    margin-top: -24.8%;
+  }
+  .segundoverde {
+    margin-left: 37%;
+  }
+  .tratamentoscapilar {
+    margin-top: -24.8%;
+  }
+  h4 {
+    margin-left: -10%;
+  }
+  #depoimentos1 {
+    margin-left: 8%;
+  }
+  .aspas {
+    margin-left: 10%;
+  }
+  .cliente {
+    margin-left: 15%;
+    text-align: left;
+  }
+  #depoimentos2 {
+    margin-top: -18.6%;
+  }
+  .bolas {
+    margin-left: 48%;
+  }
+}
+@media screen and (max-width: 1366px) and (min-width: 768px) {
+  h2 {
+    margin-top: -33%;
+  }
+  h1 {
+    margin-left: 2%;
+  }
+  .tratamentos {
+    margin-left: 2%;
+  }
+  .primeiroverde {
+    margin-top: 0%;
+  }
+  .cortes {
+    margin-top: -26.1%;
+  }
+  .tratamentoscapilar {
+    margin-top: -26.2%;
+  }
+  .segundoverde {
+    margin-top: -0.3%;
+  }
+  .terceiroverde {
+    margin-top: -0.2%;
+  }
+  h4 {
+    margin-left: 2%;
+  }
+  #depoimentos2 {
+    margin-top: -19.5%;
+  }
+  .bolas {
+    margin-left: 50%;
+  }
+}
+@media screen and (max-width: 1280px) and (min-width: 950px) {
+  #logotipo {
+    margin-top: -1.5%;
+  }
+  #progressiva {
+    margin-left: -7.1%;
+    margin-top: -8%;
+  }
+  #mulheres {
+    margin-left: 0%;
+  }
+  h2 {
+    margin-top: -37%;
+  }
+  h1 {
+    margin-left: -5%;
+  }
+  .tratamentos {
+    margin-left: -5%;
+  }
+  .Capilar {
+    margin-left: 5%;
+  }
+  .primeiroverde {
+    margin-left: 5%;
+    margin-top: 0;
+  }
+  .cortes {
+    margin-left: 36%;
+    margin-top: -27.8%;
+  }
+  .tratamentoscapilar {
+    margin-top: -27.8%;
+  }
+  .segundoverde {
+    margin-top: -0.1%;
+    margin-left: 36%;
+  }
+  h4 {
+    margin-left: -5%;
+  }
+  #depoimentos2 {
+    margin-top: -20.8%;
+  }
+  .bolas {
+    margin-left: 50%;
+  }
+}
+@media screen and (max-width: 1024px) and (min-width: 800px) {
+  #progressiva {
+    width: 50%;
+    height: auto;
+  }
+  #mulheres {
+    width: 50%;
+    height: auto;
+  }
+  h2 {
+    margin-top: -43%;
+    margin-left: 53%;
+  }
+  .sobre {
+    margin-left: 53%;
+  }
+  .iconecabelo {
+    margin-left: 33%;
+  }
+  .Capilar {
+    width: 25%;
+    height: auto;
+  }
+  .cortes {
+    width: 25%;
+    height: auto;
+    margin-top: -27%;
+  }
+  .tratamentoscapilar {
+    margin-top: -25%;
+    width: 25%;
+    height: auto;
+  }
+  .primeiroverde {
+    width: 25%;
+    margin-top: 2%;
+  }
+  .segundoverde {
+    width: 25%;
+    margin-top: -1%;
+  }
+  .terceiroverde {
+    width: 25%;
+    margin-top: 0%;
+  }
+  #depoimentos1 {
+    margin-left: 1%;
+    width: 45%;
+    height: auto;
+  }
+  #depoimentos2 {
+    width: 45%;
+    height: auto;
+  }
+}
+@media screen and (min-width: 412px) and (max-width: 846px) {
+  #logotipo {
+    margin-top: -4%;
+    margin-left: -5%;
+  }
+  nav {
+    display: none;
+  }
+  hr {
+    margin-top: 20%;
+  }
+  #progressiva {
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    margin-left: -55%;
+    margin-top: -22%;
+  }
+  h3 {
+    text-align: center;
+    margin-left: 0%;
+    margin-top: 82%;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 45px;
+    width: 100%;
+  }
+  p {
+    text-align: center;
+    margin-left: 0;
+    font-size: 16px;
+  }
+  button {
+    align-items: center;
+    margin-top: 7%;
+    margin-left: 23%;
+  }
+  #mulheres {
+    width: 100%;
+    height: auto;
+    margin-top: 13%;
+    margin-left: 0;
+  }
+  h2 {
+    margin-left: 1%;
+    margin-top: 5%;
+    font-size: 30px;
+    line-height: 45px;
+  }
+  .sobre {
+    text-align: left;
+    margin-left: 5%;
+    width: 92%;
+  }
+  h1 {
+    text-align: left;
+    margin-left: 5%;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 45px;
+    margin-top: 15%;
+  }
+  .tratamentos {
+    text-align: left;
+    margin-left: 5%;
+    font-size: 17px;
+    line-height: 26px;
+    font-style: normal;
+    font-weight: 400;
+  }
+  .Capilar {
+    width: 90%;
+    height: auto;
+    margin-left: 5%;
+    margin-top: 10%;
+  }
+  .cortes {
+    width: 90%;
+    height: auto;
+    margin-left: 5%;
+    margin-top: 10%;
+  }
+  .tratamentoscapilar {
+    width: 90%;
+    height: auto;
+    margin-left: 5%;
+    margin-top: 10%;
+  }
+  .primeiroverde {
+    margin-top: 70%;
+    margin-left: 5%;
+  }
+  .segundoverde {
+    margin-top: 80%;
+    margin-left: 5%;
+  }
+  .terceiroverde {
+    margin-top: 80%;
+    margin-left: 5%;
+  }
+  h4 {
+    font-size: 25px;
+    line-height: 45px;
+    font-style: normal;
+    text-align: left;
+    margin-left: 5%;
+    margin-top: 15%;
+  }
+  .aspas {
+    margin-left: 0;
+  }
+  .cliente {
+    font-size: 14px;
+  }
+  .wanessa {
+    margin-left: -40%;
+    margin-top: -8%;
+  }
+  .minifoto {
+    margin-left: 5%;
+  }
+  #depoimentos1 {
+    margin-left: 2%;
+    width: 95%;
+  }
+  #depoimentos2 {
+    display: none;
+  }
+  .bolas {
+    margin-left: 42%;
+  }
+  h5 {
+    margin-left: 5%;
+    font-size: 30px;
+    line-height: 45px;
+    font-weight: 700;
+  }
+  .ouvir {
+    margin-left: 5%;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: left;
+    margin-top: 8%;
+  }
+  .final {
+    margin-top: 8%;
+    margin-left: 5%;
+  }
+  .phone {
+    position: relative;
+    margin-left: 6%;
+    margin-top: 15%;
+  }
+  .number {
+    position: relative;
+    margin-left: -45%;
+    margin-top: -7%;
+  }
+  .map {
+    margin-left: -6%;
+    margin-top: 30%;
+  }
+  .r {
+    margin-left: 14%;
+    margin-top: 10%;
+  }
+  .mail {
+    margin-left: -6%;
+    margin-top: 45%;
+  }
+  .email {
+    position: relative;
+    margin-left: -19%;
+    margin-top: 20%;
+    padding: 5%;
+  }
+  .logofooter {
+    width: 40%;
+    height: auto;
+    margin-left: 4%;
+    margin-top: 8%;
+  }
+  .text {
+    margin-top: 8%;
+    margin-left: 5%;
+    text-align: left;
+  }
+  .instagram {
+    position: relative;
+    margin-left: 5%;
+    margin-top: 20%;
+  }
+  .facebook {
+    position: relative;
+    margin-left: 10%;
+    margin-top: 20%;
+  }
+  .youtube {
+    position: relative;
+    margin-left: 10%;
+    margin-top: 20%;
+  }
+}
+@media screen and (min-width: 393px) and (max-width: 786px) {
+  #logotipo {
+    margin-top: -4%;
+    margin-left: -5%;
+  }
+  nav {
+    display: none;
+  }
+  hr {
+    margin-top: 20%;
+  }
+  #progressiva {
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    margin-left: -55%;
+    margin-top: -22%;
+  }
+  h3 {
+    width: 100%;
+    text-align: center;
+    margin-left: 0%;
+    margin-top: 82%;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 45px;
+   
+  }
+  p {
+    text-align: center;
+    margin-left: 0;
+    font-size: 16px;
+  }
+  button {
+    align-items: center;
+    margin-top: 7%;
+    margin-left: 23%;
+  }
+  #mulheres {
+    width: 100%;
+    height: auto;
+    margin-top: 13%;
+    margin-left: 0;
+  }
+  h2 {
+    margin-left: 1%;
+    margin-top: 5%;
+    font-size: 30px;
+    line-height: 45px;
+  }
+  .sobre {
+    text-align: left;
+    margin-left: 5%;
+    width: 92%;
+  }
+  h1 {
+    text-align: left;
+    margin-left: 5%;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 45px;
+    margin-top: 15%;
+  }
+  .tratamentos {
+    text-align: left;
+    margin-left: 5%;
+    font-size: 16px;
+    line-height: 26px;
+    font-style: normal;
+    font-weight: 400;
+  }
+  .Capilar {
+    width: 90%;
+    height: auto;
+    margin-left: 5%;
+    margin-top: 10%;
+  }
+  .cortes {
+    width: 90%;
+    height: auto;
+    margin-left: 5%;
+    margin-top: 10%;
+  }
+  .tratamentoscapilar {
+    width: 90%;
+    height: auto;
+    margin-left: 5%;
+    margin-top: 10%;
+  }
+  .primeiroverde {
+    margin-top: -163%;
+    margin-left: 5%;
+    width: 90%;
+  }
+  .segundoverde {
+    margin-top: 80%;
+    margin-left: 5%;
+    width: 90%;
+  }
+  .terceiroverde {
+    margin-top: 82%;
+    margin-left: 5%;
+    width: 90%;
+  }
+  h4 {
+    font-size: 25px;
+    line-height: 45px;
+    font-style: normal;
+    text-align: left;
+    margin-left: 5%;
+    margin-top: 15%;
+  }
+  .aspas {
+    margin-left: 0;
+  }
+  .cliente {
+    font-size: 13px;
+  }
+  .wanessa {
+    margin-left: -40%;
+    margin-top: -8%;
+  }
+  .minifoto {
+    margin-left: 5%;
+  }
+  #depoimentos1 {
+    margin-left: 2%;
+    width: 95%;
+  }
+  #depoimentos2 {
+    display: none;
+  }
+  .bolas {
+    margin-left: 42%;
+  }
+  h5 {
+    margin-left: 5%;
+    font-size: 30px;
+    line-height: 45px;
+    font-weight: 700;
+  }
+  .ouvir {
+    margin-left: 5%;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: left;
+    margin-top: 8%;
+  }
+  .final {
+    margin-top: 8%;
+    margin-left: 5%;
+  }
+  .phone {
+    position: relative;
+    margin-left: 6%;
+    margin-top: 15%;
+  }
+  .number {
+    position: relative;
+    margin-left: -45%;
+    margin-top: -7%;
+  }
+  .map {
+    margin-left: -6%;
+    margin-top: 30%;
+  }
+  .r {
+    margin-left: 14%;
+    margin-top: 10%;
+  }
+  .mail {
+    margin-left: -6%;
+    margin-top: 45%;
+  }
+  .email {
+    position: relative;
+    margin-left: -19%;
+    margin-top: 20%;
+    padding: 5%;
+  }
+  .logofooter {
+    width: 40%;
+    height: auto;
+    margin-left: 4%;
+    margin-top: 8%;
+  }
+  .text {
+    margin-top: 8%;
+    margin-left: 5%;
+    text-align: left;
+  }
+  .instagram {
+    position: relative;
+    margin-left: 5%;
+    margin-top: 20%;
+  }
+  .facebook {
+    position: relative;
+    margin-left: 10%;
+    margin-top: 20%;
+  }
+  .youtube {
+    position: relative;
+    margin-left: 10%;
+    margin-top: 20%;
+  }
+}
+@media screen and (min-width: 360px) and (max-width: 740px) {
+  #logotipo {
+    margin-top: -4%;
+    margin-left: -5%;
+  }
+  nav {
+    display: none;
+  }
+  hr {
+    margin-top: 20%;
+  }
+  #progressiva {
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    margin-left: -55%;
+    margin-top: -22%;
+  }
+  h3 {
+    width: 100%;
+    text-align: center;
+    margin-left: 0%;
+    margin-top: 82%;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 45px;
+   
+  }
+  p {
+    text-align: center;
+    margin-left: 0;
+    font-size: 16px;
+  }
+  button {
+    align-items: center;
+    margin-top: 7%;
+    margin-left: 19%;
+  }
+  #mulheres {
+    width: 100%;
+    height: auto;
+    margin-top: 13%;
+    margin-left: 0;
+  }
+  h2 {
+    margin-left: 1%;
+    margin-top: 5%;
+    font-size: 30px;
+    line-height: 45px;
+  }
+  .sobre {
+    text-align: left;
+    margin-left: 5%;
+    width: 92%;
+  }
+  h1 {
+    text-align: left;
+    margin-left: 5%;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 45px;
+    margin-top: 15%;
+  }
+  .tratamentos {
+    text-align: left;
+    margin-left: 5%;
+    font-size: 16px;
+    line-height: 26px;
+    font-style: normal;
+    font-weight: 400;
+  }
+  .Capilar {
+    width: 90%;
+    height: auto;
+    margin-left: 5%;
+    margin-top: 10%;
+  }
+  .cortes {
+    width: 90%;
+    height: auto;
+    margin-left: 5%;
+    margin-top: 10%;
+  }
+  .tratamentoscapilar {
+    width: 90%;
+    height: auto;
+    margin-left: 5%;
+    margin-top: 10%;
+  }
+  .primeiroverde {
+    margin-top: -172%;
+    margin-left: 5%;
+    width: 90%;
+  }
+  .segundoverde {
+    margin-top: 85%;
+    margin-left: 5%;
+    width: 90%;
+  }
+  .terceiroverde {
+    margin-top: 87%;
+    margin-left: 5%;
+    width: 90%;
+  }
+  h4 {
+    font-size: 23px;
+    line-height: 45px;
+    font-style: normal;
+    text-align: left;
+    margin-left: 5%;
+    margin-top: 15%;
+  }
+  .aspas {
+    margin-left: 0;
+  }
+  .cliente {
+    font-size: 12px;
+  }
+  .wanessa {
+    margin-left: -30%;
+    margin-top: -10%;
+  }
+  .minifoto {
+    margin-left: 5%;
+  }
+  #depoimentos1 {
+    margin-left: 2%;
+    width: 95%;
+  }
+  #depoimentos2 {
+    display: none;
+  }
+  .bolas {
+    margin-left: 42%;
+  }
+  h5 {
+    margin-left: 5%;
+    font-size: 30px;
+    line-height: 45px;
+    font-weight: 700;
+  }
+  .ouvir {
+    margin-left: 5%;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: left;
+    margin-top: 8%;
+  }
+  .final {
+    margin-top: 8%;
+    margin-left: 5%;
+  }
+  .phone {
+    position: relative;
+    margin-left: 6%;
+    margin-top: 15%;
+  }
+  .number {
+    position: relative;
+    margin-left: -38%;
+    margin-top: -7%;
+  }
+  .map {
+    margin-left: -6%;
+    margin-top: 30%;
+  }
+  .r {
+    margin-left: 15%;
+    margin-top: 7%;
+  }
+  .mail {
+    margin-left: -6%;
+    margin-top: 47%;
+  }
+  .email {
+    position: relative;
+    margin-left: -8%;
+    margin-top: 20%;
+    padding: 5%;
+  }
+  .logofooter {
+    width: 40%;
+    height: auto;
+    margin-left: 4%;
+    margin-top: 8%;
+  }
+  .text {
+    margin-top: 8%;
+    margin-left: 5%;
+    text-align: left;
+  }
+  .instagram {
+    position: relative;
+    margin-left: 5%;
+    margin-top: 20%;
+  }
+  .facebook {
+    position: relative;
+    margin-left: 10%;
+    margin-top: 20%;
+  }
+  .youtube {
+    position: relative;
+    margin-left: 10%;
+    margin-top: 20%;
+  }
+}
