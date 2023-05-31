@@ -16,8 +16,13 @@
   left: 15%;
   top: 6%;
 }
+a {
+  text-decoration: none;
+  transition: 0.3s;
+}
 a:hover {
   color: aqua;
+  opacity: 0.7;
   cursor: pointer;
 }
 nav {
@@ -390,6 +395,16 @@ footer {
   width: 24px;
   height: 24px;
 }
+.mobile-menu {
+  cursor: pointer;
+}
+.mobile-menu div {
+  width: 32px;
+  height: 2px;
+  background: #fff;
+  margin: 8px;
+}
+
 @media screen and (max-width: 1536px) and (min-width: 864px) {
   #logotipo {
     margin-left: -7%;
@@ -649,29 +664,45 @@ footer {
   }
   .segundoverde {
     width: 25%;
-    margin-top: -1%;
+    margin-top: -0.5%;
   }
   .terceiroverde {
     width: 25%;
-    margin-top: 0%;
+    margin-top: -1%;
   }
   #depoimentos1 {
     margin-left: 1%;
-    width: 45%;
+    width: 43%;
     height: auto;
   }
   #depoimentos2 {
-    width: 45%;
+    width: 43%;
     height: auto;
+    margin-top: -17%;
+  }
+  .cliente{
+    font-size: 14px;
+  }
+  .bolas {
+    margin-left: 46%;
+  }
+  .wanessa{
+    margin-left: 25%;
+  }
+  .number {
+    margin-left: 61%;
+  }
+  .r {
+    margin-left: 61%;
+  }
+  .email {
+    margin-left: 61%;
   }
 }
 @media screen and (min-width: 412px) and (max-width: 846px) {
   #logotipo {
     margin-top: -4%;
     margin-left: -5%;
-  }
-  nav {
-    display: none;
   }
   hr {
     margin-top: 20%;
@@ -701,7 +732,6 @@ footer {
     margin-left: 23%;
     margin-top: 7%;
   }
-
   #mulheres {
     width: 100%;
     height: auto;
@@ -867,7 +897,61 @@ footer {
     margin-left: 10%;
     margin-top: 20%;
   }
-}
+
+  .nav-list {
+    position: absolute;
+    top: 8vh;
+    right: 0;
+    width: 100vw;
+    height: 92vh;
+    background-color: green;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    transform: translateX(100%);
+    transition: transform 0.3s ease-in;
+  }
+  .nav-list li {
+    margin-left: 0;
+    opacity: 0;
+  }
+  .mobile-menu div {
+    width: 32px;
+    height: 2px;
+    background-color: #0f241d;
+    margin: 8px;
+    transition: 0.3s;
+  }
+  body {
+    overflow-x: hidden;
+  }
+  .nav-list.active {
+    transform: translateX(0);
+  }
+  @keyframes navLinkFade {
+    from{
+      opacity: 0;
+      transform: translateX(50px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+
+  .mobile-menu.active .line1 {
+    transform: rotate(-45deg) translate(-8px, 8px);
+  }
+
+  .mobile-menu.active .line2 {
+    opacity: 0;
+  }
+
+  .mobile-menu.active .line3 {
+    transform: rotate(45deg) translate(-5px, -7px);
+  }
+
+
 @media screen and (min-width: 393px) and (max-width: 786px) {
   #logotipo {
     margin-top: -4%;
@@ -1280,4 +1364,5 @@ footer {
     margin-left: 10%;
     margin-top: 20%;
   }
+
 }
