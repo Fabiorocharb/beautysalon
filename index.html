@@ -33,7 +33,6 @@
       href="./favicon/favicon_io/favicon-16x16.png"
     />
     <link rel="stylesheet" href="css/style.css" />
-    
   </head>
   <body>
     <header id="inicio">
@@ -45,7 +44,9 @@
         /></a>
       </figure>
       <nav id="menu">
-        <ul>
+        <button aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu1" aria-expanded="false"><span id="hamburguer"></span>
+        </button>
+        <ul id="menu1" role="menu1">
           <li><a href="#inicio">Início</a></li>
           <li><a href="#sobre">Sobre</a></li>
           <li><a href="#servico">Serviços</a></li>
@@ -54,7 +55,7 @@
         </ul>
       </nav>
     </header>
-    <hr />
+    <hr id="linha1"/>
     <section>
       <h3>
         Saúde natural para<br />
