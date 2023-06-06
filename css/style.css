@@ -694,20 +694,20 @@ footer {
   }
 }
 @media screen and (min-width: 412px) and (max-width: 846px) {
-
+  
   /* Inicio Mobile responsive*/
   #menu1 {
-   display: block;
-   position: absolute;
-   width: 100%;
-   top: 70px;
-   right: 0px;
-   background: #f9f9f9;
-   transition: .6s;
-   z-index: 1000;
-   height: 0px;
-   visibility: hidden;
-   overflow-y: hidden;
+    display: block;
+    position: absolute;
+    width: 100%;
+    top: 70px;
+    right: 0px;
+    background: #f9f9f9;
+    transition: 0.6s;
+    z-index: 1000;
+    height: 0px;
+    visibility: hidden;
+    overflow-y: hidden;
   }
   #menu1 a {
     padding: 1rem 0;
@@ -736,33 +736,34 @@ footer {
     margin-top: 10%;
     width: 18%;
     display: flex;
-    padding: .5rem 1rem;
+    padding: 0.5rem 1rem;
     font-size: 1rem;
     border: none;
     cursor: pointer;
     background: none;
-    gap: .5rem;
+    gap: 0.5rem;
   }
   #hamburguer {
     color: green;
     width: 26px;
     border-top: 2px solid;
   }
-  #hamburguer::after, #hamburguer::before {
-    content: '';
+  #hamburguer::after,
+  #hamburguer::before {
+    content: "";
     display: block;
     width: 26px;
     height: 2px;
     background: green;
     margin-top: 5px;
-    transition: .3s;
+    transition: 0.3s;
     position: relative;
   }
   #menu.active #hamburguer {
     border-top-color: transparent;
   }
   #menu.active #hamburguer::before {
-   transform: rotate(135deg);
+    transform: rotate(135deg);
   }
   #menu.active #hamburguer::after {
     transform: rotate(-135deg);
@@ -913,14 +914,12 @@ footer {
     margin-left: 5%;
   }
   .phone {
-    position: relative;
-    margin-left: 6%;
     margin-top: 15%;
+    margin-bottom: 0%;
   }
   .number {
-    position: relative;
-    margin-left: -45%;
-    margin-top: -7%;
+    margin-bottom: 3%;
+    margin-top: -20%;
   }
   .map {
     margin-left: -6%;
@@ -928,15 +927,14 @@ footer {
   }
   .r {
     margin-left: 14%;
-    margin-top: 10%;
+    margin-top: 8%;
   }
   .mail {
-    margin-left: -6%;
+    margin-left: 0%;
     margin-top: 45%;
   }
   .email {
-    position: relative;
-    margin-left: -19%;
+    margin-left: 0%;
     margin-top: 20%;
     padding: 5%;
   }
@@ -968,6 +966,84 @@ footer {
   }
 }
 @media screen and (min-width: 393px) and (max-width: 786px) {
+    /* Inicio Mobile responsive*/
+    #menu1 {
+      display: block;
+      position: absolute;
+      width: 100%;
+      top: 70px;
+      right: 0px;
+      background: #f9f9f9;
+      transition: 0.6s;
+      z-index: 1000;
+      height: 0px;
+      visibility: hidden;
+      overflow-y: hidden;
+    }
+    #menu1 a {
+      padding: 1rem 0;
+      margin: 0 1rem;
+      border-bottom: 2px solid rgba(0, 0, 0, 0.08);
+    }
+    li {
+      font-family: Poppins-Regular;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 45px;
+      color: #0f241d;
+      flex-direction: column;
+      display: flex;
+      padding: 10%;
+      text-align: center;
+    }
+    #menu.active #menu1 {
+      height: calc(100vh - 70px);
+      visibility: visible;
+      overflow-y: auto;
+    }
+    #btn-mobile {
+      margin-left: 70%;
+      margin-top: 10%;
+      width: 18%;
+      display: flex;
+      padding: 0.5rem 1rem;
+      font-size: 1rem;
+      border: none;
+      cursor: pointer;
+      background: none;
+      gap: 0.5rem;
+    }
+    #hamburguer {
+      color: green;
+      width: 26px;
+      border-top: 2px solid;
+    }
+    #hamburguer::after,
+    #hamburguer::before {
+      content: "";
+      display: block;
+      width: 26px;
+      height: 2px;
+      background: green;
+      margin-top: 5px;
+      transition: 0.3s;
+      position: relative;
+    }
+    #menu.active #hamburguer {
+      border-top-color: transparent;
+    }
+    #menu.active #hamburguer::before {
+      transform: rotate(135deg);
+    }
+    #menu.active #hamburguer::after {
+      transform: rotate(-135deg);
+      top: -7px;
+    }
+    #linha1 {
+      margin-top: 4%;
+    }
+    /* fim  Mobile responsive*/
   #logotipo {
     margin-top: -4%;
     margin-left: -5%;
@@ -1171,6 +1247,84 @@ footer {
   }
 }
 @media screen and (min-width: 360px) and (max-width: 740px) {
+    /* Inicio Mobile responsive*/
+    #menu1 {
+      display: block;
+      position: absolute;
+      width: 100%;
+      top: 70px;
+      right: 0px;
+      background: #f9f9f9;
+      transition: 0.6s;
+      z-index: 1000;
+      height: 0px;
+      visibility: hidden;
+      overflow-y: hidden;
+    }
+    #menu1 a {
+      padding: 1rem 0;
+      margin: 0 1rem;
+      border-bottom: 2px solid rgba(0, 0, 0, 0.08);
+    }
+    li {
+      font-family: Poppins-Regular;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 45px;
+      color: #0f241d;
+      flex-direction: column;
+      display: flex;
+      padding: 10%;
+      text-align: center;
+    }
+    #menu.active #menu1 {
+      height: calc(100vh - 70px);
+      visibility: visible;
+      overflow-y: auto;
+    }
+    #btn-mobile {
+      margin-left: 70%;
+      margin-top: 10%;
+      width: 18%;
+      display: flex;
+      padding: 0.5rem 1rem;
+      font-size: 1rem;
+      border: none;
+      cursor: pointer;
+      background: none;
+      gap: 0.5rem;
+    }
+    #hamburguer {
+      color: green;
+      width: 26px;
+      border-top: 2px solid;
+    }
+    #hamburguer::after,
+    #hamburguer::before {
+      content: "";
+      display: block;
+      width: 26px;
+      height: 2px;
+      background: green;
+      margin-top: 5px;
+      transition: 0.3s;
+      position: relative;
+    }
+    #menu.active #hamburguer {
+      border-top-color: transparent;
+    }
+    #menu.active #hamburguer::before {
+      transform: rotate(135deg);
+    }
+    #menu.active #hamburguer::after {
+      transform: rotate(-135deg);
+      top: -7px;
+    }
+    #linha1 {
+      margin-top: 4%;
+    }
+    /* fim  Mobile responsive*/
   #logotipo {
     margin-top: -4%;
     margin-left: -5%;
