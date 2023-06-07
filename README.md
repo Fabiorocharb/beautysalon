@@ -2,7 +2,7 @@
 <img src="https://github.com/Fabiorocharb/beautysalon/assets/106245486/1852014a-b2c7-4125-bfba-bcf40c32bcd8" alt="logotipo da beautysalon" />
 </div>
 
-> ****Status do projeto****: Em construção 🧑‍💼
+> ****Status do projeto****: Concluído🧑‍💼
 
 <h2> 🎯 Objetivo do projeto:</h2>
 
